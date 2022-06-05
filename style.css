@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=Josefin+Sans:wght@400;500&family=Koulen&family=Montserrat:wght@300&family=Oleo+Script:wght@700&family=Pacifico&family=Paytone+One&family=Righteous&family=Russo+One&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+    background: linear-gradient(to bottom right, rgba(0, 0, 255, 0.918),rgba(0, 0, 0, 0.874),rgba(181, 0, 253, 0.831), rgb(0, 0, 0), rgb(0, 33, 244));
+    background-repeat: no-repeat;
+    height: 789px;
+}
+
+.header {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Koulen', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Russo One', sans-serif;
+    background-color: #ffffff29;
+    height: 11%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    color: aliceblue;
+    width: 15%;
+}
+
+.left img {
+    width: 58px;
+    margin-left: 30px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.mid {
+    width: 60%;
+    margin-top: 28px;
+}
+
+.mid a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 30px 10px 0px 40px;
+    transition: 0.3s;
+}
+
+.mid a:hover {
+    color: #ffffff8b;
+    /* tansistion:0.7s; */
+    transform: scale(.96);
+}
+
+.right {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    margin-top: 25px;
+    padding-left: 10px;
+    width: 25%;
+}
+
+.right a {
+    text-decoration: none;
+    margin: 0px 10px 0px 60px;
+    background-size: 80px;
+    height: 10px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass {
+    padding-top: 8px;
+}
+
+.con {
+    border: #ffffff solid;
+    padding: 2px 17px;
+    border-radius: 4px;
+    transition: .7s;
+}
+
+.con:hover {
+    background-color: #ffffff20;
+    transition: .3s;
+    border: #ffffff29 solid;
+    color: #ffffffd5;
+    transform: scale(.92);
+
+}
+
+.rightnav {
+    display: inline-block;
+    background-color: transparent;
+    border: 5px wheat;
+}
+
+.banking {
+    width: 50%;
+    margin: 70px 30px 0px 630px;
+}
+
+.content {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Koulen', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Russo One', sans-serif;
+    /* background-color: aquamarine; */
+    color: #ffffff;
+    width: 50%;
+    padding: 10px 0px 0px 25px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    margin-left: 40px;
+}
+
+.content p {
+    font-size: x-large;
+    margin: 17px 25px;
+    margin-bottom: 50px;
+}
+
+.an {
+    width: 280px;
+    flex-direction: row;
+    background-color: rgba(101, 10, 101, 0.825);
+    margin: 0px 20px;
+    padding: 13px 15px;
+    padding-left: 10px;
+    border: #ffffff9c solid;
+    border-radius: 8px;
+    transition: .7s;
+}
+
+.an a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: .2s;
+
+}
+
+.an:hover {
+    background-color: rgba(41, 11, 41, 0.339);
+    border: #ffffff64 solid;
+    transform: scale(.96);
+}
+
+.an a:hover {
+    color: #ffffffbb;
+}
+
+.fa-arrow-right {
+    padding-left: 20px;
+}
+
+.v {
+    background-color: rgba(0, 0, 0, 0.246);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Koulen', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Russo One', sans-serif;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    padding: 21px 80px;
+}
+
+.v div {
+    width: 25%;
+    margin-left: 25px;
+    padding-left: 40px;
+}
+
+.border-top {
+    height: 40px;
+}
